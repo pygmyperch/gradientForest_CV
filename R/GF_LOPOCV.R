@@ -8,7 +8,7 @@ library(viridis)
 
 
 # import data
-data <- read.csv("GFinput1.csv")
+data <- readRDS("GFinput.rds")
 
 # get env and snp names
 envVars <- c("bio02", "bio03", "bio06", "bio09", "bio14", "bio15")
