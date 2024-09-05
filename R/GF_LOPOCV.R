@@ -6,6 +6,7 @@ library(ggplot2)
 library(reshape2)
 library(viridis)
 
+set.seed(42)
 
 # import data
 data <- readRDS("GFinput.rds")
