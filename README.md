@@ -2,7 +2,7 @@
 
 Code to run the Leave-One-Population-Out (LOPO) cross-validation to assess sensitivity of gradient forest model to the exclusion of individual catchments for:
 
-> Citation: Booth, E, Brauer, CJ, Sandoval-Castillo, J, Harrisson, K, Rourke, ML, Attard, CM, Gilligan, DM, Tonkin, Z, Thiem, J, Zampatti, B, Unmack, PJ, & Beheregaray, LB. (2024). Genomic vulnerability to climate change of an Australian migratory freshwater fish, the golden perch (Macquaria ambigua). *Molecular Ecology*. Under review.
+> Booth, E, Brauer, CJ, Sandoval-Castillo, J, Harrisson, K, Rourke, ML, Attard, CM, Gilligan, DM, Tonkin, Z, Thiem, J, Zampatti, B, Unmack, PJ, & Beheregaray, LB. (2024). Genomic vulnerability to climate change of an Australian migratory freshwater fish, the golden perch (Macquaria ambigua). *Molecular Ecology*. Under review.
 
 * `GF_LOPOCV.R`: quick check for outlying populations/catchments/regions
 * `CI_model.R`: run n iterations of the LOPO models to estimate mean and 95% confidence intervals for R^2, RMSE, and variable importance
